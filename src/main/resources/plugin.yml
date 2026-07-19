@@ -1,0 +1,12 @@
+name: DominionTweak
+version: '1.0.0'
+main: me.xydesu.dominiontweak.DominionTweak
+api-version: '1.20'
+depend:
+  - Dominion
+folia-supported: true
+commands:
+  dt:
+    description: 管理 DominionTweak 功能 (封鎖/解封玩家等)
+    aliases:
+      - dominiontweak

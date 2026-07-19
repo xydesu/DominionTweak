@@ -1,0 +1,46 @@
+# 繁體中文翻譯檔 (Traditional Chinese)
+
+plugin:
+  api_loaded: "&aDominionAPI 已成功載入！"
+  api_not_found: "&c未找到 Dominion 插件，DominionTweak 將停用！"
+  enabled: "&aDominionTweak 啟用成功！已開始監聽建立與刪除事件。"
+  disabled: "&eDominionTweak 已停用。"
+
+command:
+  player_only: "&c此指令只能由玩家執行。"
+  usage: "&c用法: /dt ban <玩家名稱> 或 /dt unban <玩家名稱>"
+  unknown_subcommand: "&c未知的子指令。請使用 ban 或 unban。"
+  api_error: "&c無法取得 Dominion API，請稍後再試。"
+  player_not_found: "&c找不到名為 {player} 的玩家。"
+  no_dominions: "&e您目前尚未擁有任何領地。"
+  provider_error: "&c無法取得 MemberProvider。"
+  ban_success: "&a成功將 {player} 加入黑名單，該玩家將無法進入您的領地。"
+  unban_success: "&a成功將 {player} 從您的黑名單中移除。"
+
+confirm:
+  success: "&a成功確認建立領地！"
+  attempt_action: "&e您正在嘗試 {action}。"
+  click_to_confirm: "&a&l[點擊此處確認]"
+  hover_run: "&f點擊以執行: &7{command}"
+  time_limit: "&c請在 60 秒內確認操作： "
+
+home:
+  no_permission: "&c您沒有權限在此領地設定家 (Set Home)！"
+
+ban:
+  banned_move: "&c您被該領地的主人列入黑名單，無法進入該領地！"
+  banned_teleport: "&c您被該領地的主人列入黑名單，無法傳送至該領地！"
+
+admin:
+  no_permission: "&c您沒有權限執行管理員指令。"
+  reload_success: "&a設定與語言檔已重新載入！"
+  list_header: "&e{player} 的黑名單列表："
+  list_empty: "&7(空)"
+  clear_success: "&a已清空 {player} 的黑名單。"
+  ban_success: "&a已強制將 {target} 加入 {owner} 的黑名單。"
+  unban_success: "&a已強制將 {target} 從 {owner} 的黑名單中移除。"
+
+flag:
+  sethome:
+    name: "設定家 (Set Home)"
+    description: "是否允許在此領地設定家 (如 /sethome)。"

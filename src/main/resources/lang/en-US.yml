@@ -1,0 +1,46 @@
+# English Translation File
+
+plugin:
+  api_loaded: "&aDominionAPI successfully loaded!"
+  api_not_found: "&cDominion plugin not found, DominionTweak will be disabled!"
+  enabled: "&aDominionTweak enabled successfully! Listening to create and delete events."
+  disabled: "&eDominionTweak has been disabled."
+
+command:
+  player_only: "&cThis command can only be executed by players."
+  usage: "&cUsage: /dt ban <player> or /dt unban <player>"
+  unknown_subcommand: "&cUnknown subcommand. Please use ban or unban."
+  api_error: "&cFailed to access Dominion API, please try again later."
+  player_not_found: "&cPlayer {player} not found."
+  no_dominions: "&eYou currently do not own any dominions."
+  provider_error: "&cFailed to access MemberProvider."
+  ban_success: "&aSuccessfully added {player} to your blacklist. They can no longer enter your dominions."
+  unban_success: "&aSuccessfully removed {player} from your blacklist."
+
+confirm:
+  success: "&aSuccessfully confirmed the creation of the dominion!"
+  attempt_action: "&eYou are attempting to {action}."
+  click_to_confirm: "&a&l[Click here to confirm]"
+  hover_run: "&fClick to execute: &7{command}"
+  time_limit: "&cPlease confirm within 60 seconds: "
+
+home:
+  no_permission: "&cYou don't have permission to set home here!"
+
+ban:
+  banned_move: "&cYou have been blacklisted by the owner of this dominion and cannot enter!"
+  banned_teleport: "&cYou have been blacklisted by the owner of this dominion and cannot teleport here!"
+
+admin:
+  no_permission: "&cYou do not have permission to execute admin commands."
+  reload_success: "&aConfiguration and language files have been reloaded!"
+  list_header: "&eBlacklist for {player}:"
+  list_empty: "&7(Empty)"
+  clear_success: "&aCleared the blacklist for {player}."
+  ban_success: "&aForcibly added {target} to {owner}'s blacklist."
+  unban_success: "&aForcibly removed {target} from {owner}'s blacklist."
+
+flag:
+  sethome:
+    name: "Set Home"
+    description: "Whether it is allowed to set home here (e.g., /sethome)."
