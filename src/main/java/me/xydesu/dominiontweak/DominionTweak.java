@@ -55,6 +55,7 @@ public final class DominionTweak extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new ConfirmListener(this), this);
         getServer().getPluginManager().registerEvents(new HomeListener(this), this);
         getServer().getPluginManager().registerEvents(new BanListener(this), this);
+        getServer().getPluginManager().registerEvents(new FlyBugListener(this), this);
         
         // 註冊指令
         BanCommand banCommand = new BanCommand(this);
