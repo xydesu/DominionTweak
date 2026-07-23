@@ -18,6 +18,10 @@ DominionTweak is an add-on plugin for Dominion, providing independent ban lists 
    - Comprehensive admin commands to manage any territory's ban list.
    - Bypass permissions allow administrators to ignore territory bans and home-setting restrictions.
 
+4. **Fly Bug Fix**
+   - Patches a bug in Dominion where players could fly infinitely after teleporting out of a territory.
+   - Automatically disables flight when a player teleports out of a territory or logs out while outside of one (ignoring Creative/Spectator modes).
+
 ## Commands
 
 - `/dt ban <player>`: Add a player to your territory ban list.
