@@ -35,9 +35,11 @@ DominionTweak is an add-on plugin for Dominion, providing independent ban lists 
 ## Permissions
 
 - `dominiontweak.admin`: Grants access to `/dt reload` and all `/dt admin` commands.
+- `dominiontweak.bypass`: Allows the player to bypass all territory restrictions (like walk, tp).
 - `dominiontweak.bypass.ban`: Allows the player to enter any territory, ignoring ban lists.
 - `dominiontweak.bypass.sethome`: Allows the player to set homes in any territory, ignoring restrictions.
-
+- `dominiontweak.bypass.walk`: Allows the player to bypass territory walk restrictions.
+- `dominiontweak.bypass.tp`: Allows the player to bypass territory tp restrictions.
 ## Configuration
 
 Language strings and plugin messages are fully customizable in `plugins/DominionTweak/lang/zh-TW.yml` and `en-US.yml`.

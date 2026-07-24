@@ -10,3 +10,13 @@ commands:
     description: 管理 DominionTweak 功能 (封鎖/解封玩家等)
     aliases:
       - dominiontweak
+permissions:
+  dominiontweak.bypass:
+    description: 允許繞過領地的所有限制 (如 walk, tp)
+    default: op
+  dominiontweak.bypass.walk:
+    description: 允許繞過領地的 walk 限制
+    default: op
+  dominiontweak.bypass.tp:
+    description: 允許繞過領地的 tp 限制
+    default: op
